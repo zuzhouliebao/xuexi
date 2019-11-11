@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/history_list"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/underline">
+
+    <TextView
+        android:id="@+id/history_img"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:background="@drawable/circle_shape"
+        android:textSize="30dp"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:id="@+id/history_internal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/history_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="默认标题"/>
+        <TextView
+            android:id="@+id/history_content"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="默认注释"/>
+    </LinearLayout>
+
+</LinearLayout>

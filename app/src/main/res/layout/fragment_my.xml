@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MyFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="vertical"
+        android:background="@drawable/my_bg">
+
+        <ImageView
+            android:layout_width="178dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/avatar" />
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="点击登陆" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_history"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/underline">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/my_record"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="26dp"
+            android:textColor="#AAAAAA"
+            android:text="播放记录"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textColor="#AAAAAA"
+            android:text=">"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_set"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="461dp"
+        android:background="@drawable/underline">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/my_set"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="26dp"
+            android:textColor="#AAAAAA"
+            android:text="设置"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textColor="#AAAAAA"
+            android:text=">"/>
+    </LinearLayout>
+
+</FrameLayout>

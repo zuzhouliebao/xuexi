@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/toolbar.style"
+    tools:context=".activity.MySetActivity">
+
+    <include layout="@layout/tool_bar"/>
+
+    <LinearLayout
+        android:id="@+id/mf_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/underline">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="26dp"
+            android:textColor="#AAAAAA"
+            android:text="修改密码"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textColor="#AAAAAA"
+            android:text=">"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/set_pt_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/underline">
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="26dp"
+            android:textColor="#AAAAAA"
+            android:text="设置密保"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textColor="#AAAAAA"
+            android:text=">"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bt_quit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/underline">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="26dp"
+            android:textColor="#AAAAAA"
+            android:text="退出登陆"/>
+    </LinearLayout>
+
+</LinearLayout>

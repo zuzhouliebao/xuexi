@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="login">用户登录</string>
+    <string name="tv_username">用户:</string>
+    <string name="tv_password">密码:</string>
+    <string name="bt_log">登录</string>
+    <string name="bt_bos">立即注册</string>
+    <string name="bt_save">找回密码</string>
+    <string name="et_username">输入用户名</string>
+    <string name="et_password">输入密码</string>
+    <string name="reg">注册</string>
+    <string name="et_repassword">请再输入密码</string>
+    <string name="reg_btn">注册</string>
+    <string name="rb_main">首页</string>
+    <string name="rb_message">消息</string>
+    <string name="rb_find">发现</string>
+    <string name="rb_my">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fg_my">我的</string>
+    <string name="fg_find">发现</string>
+    <string name="fg_main">首页</string>
+    <string name="fg_message">消息</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

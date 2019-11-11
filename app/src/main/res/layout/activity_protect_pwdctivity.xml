@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave"
+    android:orientation="vertical"
+    tools:context=".activity.ProtectPwdctivity">
+
+    <include layout="@layout/tool_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:textColorHint="#a3a3a3"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/et_my_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:hint="请输入用户名"
+            android:singleLine="true"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="您的姓名是?"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:hint="请输入验证的姓名"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:id="@+id/bt_ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:textSize="22dp"
+            android:text="验证"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/find_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:textSize="22dp"
+            android:text="找回"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>
